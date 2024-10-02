@@ -24,17 +24,17 @@
   margin-left: 10px;
   font-size: 30px;
 }
-p{
-    margin-left:20px;
+h5{
+    font-size: small;
+    font-weight: lighter;
 }
 .body{
     grid-area: body;
-    background-color: rgb(216, 241, 254);
-    
+    background-color: rgb(228, 241, 248); 
 }
 .foot{
     grid-area: foot;
-    background-color: brown;
+    background-color: rgb(83, 73, 73);
 }
 .left{
     grid-area: left;
@@ -57,13 +57,49 @@ li{
     margin-left: 20px;
     list-style: none;
     padding-top: 5%;
+    font-size: small;
+    color: rgb(41, 41, 38);
+}
+.box{
+    padding-top: 50px;
+    margin-left: 80px;
 }
 .button{
-    height:50px;
-    width: 50px;
-    
+    height:25px;
+    width: 70px;
+    display: flex;
+    padding-top: 1%;
+   padding-left: 2%;
+   border-radius:0;
+   
 }
-.body{
-    display: grid;
+h4{
+    margin-left:80px ;
+    margin-top: 10px;
+    color: rgb(40, 41, 41);
+}
+p1{
+    margin-left:80px ;
+   font-size: x-small;
+   color: rgb(43, 49, 55);
+}
+ul1{
+    display: flex;
+    margin-left:60px ;
+}
+li1{
+    list-style: none;
+    padding-top: 5%;
+    padding-left: 15px;
+    font-size: small;
+    color: rgb(41, 41, 38);
+} 
+.box1{
+    height: 180px;
+    width: 200px;
+   margin-top: 20px;
+   margin-left: 18%;
+} 
 
-}
+
+
