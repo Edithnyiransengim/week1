@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.container{
+.page1{
     background-color: rgb(213, 213, 212);
     background-position: center;
     width: 100%;
@@ -98,7 +98,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #f0f0f0;
 }
 
@@ -129,60 +128,10 @@ h6{
     margin-top: 40px;
     font-size: small;
 }
-.body{
-    grid-area: body;
-    background-color: rgb(228, 241, 248); 
-   <!-- display: grid;
-    grid-template-columns: repeat(5,170px);
-    grid-template-rows: 2fr 2fr 1fr;
-    grid-template-areas: "top top top top top "
-                         "emp veh bal per emp1"
-                         "bot bot bot bot bot";
+.cont{
+    display: flex;
+    justify-content: center;
 }
-.top{
-    grid-area: top;
-   margin-left: 90%;
-   margin-top: 10px;
-}
-.sketch{
-    border-radius: 50px;
-    width: 70px;
-    height: 30px;
-    font-size: smaller;
-    border: 1px solid #686565;
-    
-}
-
-.emp{
-    grid-area: emp;
-    
-}
-.emp1{
-    grid-area: emp1;
-}
-.veh{
-    grid-area: veh;
-    background-color: rgb(117, 241, 241);
-}
-.bal{
-    grid-area: bal;
-    background-color: rgb(165, 127, 255);
-}
-.per{
-    grid-area: per;
-    background-color: #925ae0;
-}
-.bot{
-    grid-area: bot;
-    background-color: #9b0606;
-}-->
-.pics{
-    padding-top: 15%;
-    padding-left: 15%;
-   display: flex;
-   
-}
-
 
 
 
